@@ -1,3 +1,5 @@
+package index;
+
 import java.util.*;
 
 public class SimpleIndex implements Index {

@@ -1,3 +1,7 @@
+package search;
+
+import index.Index;
+
 import java.util.Set;
 
 public interface SearchStrategy {

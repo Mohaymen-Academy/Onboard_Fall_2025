@@ -1,3 +1,8 @@
+import file.FileReader;
+import index.Index;
+import search.SearchStrategy;
+import tokenizer.Tokenizer;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;

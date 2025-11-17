@@ -1,3 +1,5 @@
+package index;
+
 import java.util.Set;
 
 public interface Index {

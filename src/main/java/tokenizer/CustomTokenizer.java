@@ -1,3 +1,5 @@
+package tokenizer;
+
 public class CustomTokenizer implements Tokenizer {
     @Override
     public String[] tokenize(String line) {

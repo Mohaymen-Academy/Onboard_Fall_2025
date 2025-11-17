@@ -1,3 +1,10 @@
+import index.Index;
+import index.SimpleIndex;
+import search.BasicSearchStrategy;
+import search.SearchStrategy;
+import tokenizer.DefaultTokenizer;
+import tokenizer.Tokenizer;
+
 import java.io.IOException;
 import java.util.*;
 
