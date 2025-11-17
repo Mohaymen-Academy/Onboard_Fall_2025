@@ -46,6 +46,10 @@ public class BasicSearchStrategy implements SearchStrategy {
             }
         }
 
+        if (orWords.isEmpty()) {
+            result = new HashSet<>(index.getAllDocuments());
+        }
+
         for (String word : notWords) {
             result.removeAll(index.get(word));
         }

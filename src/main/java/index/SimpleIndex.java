@@ -15,4 +15,13 @@ public class SimpleIndex implements Index {
     public Set<String> get(String word) {
         return index.getOrDefault(word, Collections.emptySet());
     }
+
+    @Override
+    public Set<String> getAllDocuments() {
+        Set<String> allFiles = new HashSet<>();
+        for (Set<String> files : index.values()) {
+            allFiles.addAll(files);
+        }
+        return allFiles;
+    }
 }
