@@ -10,7 +10,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        String folderPath = "C:\\Users\\alire\\Documents\\Mohaymen";
+        String folderPath = "/Users/mohammadhosseinsurani/Downloads/SoftwareBooksDataset-2cd9f22c39e9982e287ed4b473f78878";
         Index invertedIndex = new SimpleIndex();
         Tokenizer tokenizer = new DefaultTokenizer();
         SearchStrategy strategy = new BasicSearchStrategy();
