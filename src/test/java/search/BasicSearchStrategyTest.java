@@ -1,13 +1,11 @@
-package java.search;
+package search;
+
 import index.Index;
 import index.SimpleIndex;
 import org.junit.Before;
-import org.junit.Test;
-import search.BasicSearchStrategy;
-import search.SearchStrategy;
 
 import java.util.Set;
-
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class BasicSearchStrategyTest {

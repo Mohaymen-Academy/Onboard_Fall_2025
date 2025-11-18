@@ -1,10 +1,9 @@
-package java.index;
+package index;
 
-import index.Index;
-import index.SimpleIndex;
 import org.junit.jupiter.api.Test;
-import java.util.Set;
 import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.Set;
 
 public class SimpleIndexTest {
 
