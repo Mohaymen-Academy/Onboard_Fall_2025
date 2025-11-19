@@ -7,12 +7,9 @@ import tokenizer.Tokenizer;
 
 import java.io.IOException;
 import java.util.*;
-import lombok.extern.slf4j.Slf4j;
-import java.io.IOException;
 import java.util.Scanner;
 import java.util.Set;
 
-@Slf4j
 public class Main {
     public static void main(String[] args) {
         String folderPath = "/Users/mohammadhosseinsurani/Downloads/SoftwareBooksDataset-2cd9f22c39e9982e287ed4b473f78878";
