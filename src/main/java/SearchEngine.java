@@ -1,14 +1,11 @@
-import file.FileReader;
 import index.Index;
+import lombok.Getter;
+import lombok.Setter;
+import normalizer.Normalizer;
 import search.SearchStrategy;
 import tokenizer.Tokenizer;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.*;
-import lombok.Getter;
-import lombok.Setter;
 
 @Getter
 @Setter
@@ -16,34 +13,50 @@ public class SearchEngine {
     private final Index index;
     private final Tokenizer tokenizer;
     private final SearchStrategy searchStrategy;
+    private final Normalizer normalizer;
 
-    public SearchEngine(Index index, Tokenizer tokenizer, SearchStrategy searchStrategy) {
-        this.index = index;
-        this.tokenizer = tokenizer;
-        this.searchStrategy = searchStrategy;
+    public SearchEngine(Index index,
+                        Tokenizer tokenizer,
+                        Normalizer normalizer,
+                        SearchStrategy searchStrategy) {
+        this.index = Objects.requireNonNull(index);
+        this.tokenizer = Objects.requireNonNull(tokenizer);
+        this.normalizer = Objects.requireNonNull(normalizer);
+        this.searchStrategy = Objects.requireNonNull(searchStrategy);
     }
 
-    public void processFiles(String folderPath) throws IOException {
-        Files.list(Paths.get(folderPath))
-                .filter(path -> path.toString().endsWith(".txt"))
-                .filter(Files::isRegularFile)
-                .forEach(path -> {
-                    try {
-                        List<String> lines = new FileReader().readLines(path.toString());
-                        for (String line : lines) {
-                            String[] words = tokenizer.tokenize(line);
-                            for (String word : words) {
-                                word = word.toLowerCase();
-                                index.add(word, path.getFileName().toString());
-                            }
-                        }
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                });
+    public void addDocument(String id, String content) {
+        if (id == null || content == null) return;
+
+        String[] tokens = tokenizer.tokenize(content);
+        for (String token : tokens) {
+            String normalized = normalizer.normalize(token);
+            if (!normalized.isBlank()) {
+                index.add(normalized, id);
+            }
+        }
     }
 
-    public Set<String> search(String searchWord) {
-        return searchStrategy.performSearch(searchWord, index);
+    public void addDocuments(Map<String, String> documents) {
+        if (documents == null) return;
+        documents.forEach(this::addDocument);
+    }
+
+    public Set<String> search(String query) {
+        if (query == null || query.isBlank()) {
+            return Set.of();
+        }
+        return searchStrategy.performSearch(query, index);
+    }
+
+    public static SearchEngine createDefault(Index index,
+                                             Tokenizer tokenizer,
+                                             Normalizer normalizer) {
+        return new SearchEngine(
+                index,
+                tokenizer,
+                normalizer,
+                new search.BasicSearchStrategy(normalizer)
+        );
     }
 }

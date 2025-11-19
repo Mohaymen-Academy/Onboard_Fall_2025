@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18d1205f-e0c5-4a6a-912d-83fca187f7bf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SearchEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search/BasicSearchStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search/BasicSearchStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search/SearchStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search/SearchStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/search/PrefixSearchStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SearchEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/search/BasicSearchStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/search/BasicSearchStrategy.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +51,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Unit-Test",
+    "git-widget-placeholder": "Clean-Code2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/mohammadhosseinsurani/Desktop/Onboard_Fall_2025",
     "project.structure.last.edited": "Modules",
@@ -51,7 +60,7 @@
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Onboard_Fall_2025" />
@@ -107,11 +116,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Onboard_Fall_2025" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Onboard_Fall_2025" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.SimpleIndexTest.getAllDocumentsShouldReturnAllDistinctFiles" />
         <item itemvalue="JUnit.SimpleIndexTest.addAndGetShouldStoreWordsPerFile (1)" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.SimpleIndexTest.addAndGetShouldStoreWordsPerFile" />
       </list>
     </recent_temporary>

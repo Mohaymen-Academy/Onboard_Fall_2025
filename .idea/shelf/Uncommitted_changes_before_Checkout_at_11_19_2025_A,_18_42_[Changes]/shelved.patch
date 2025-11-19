@@ -1,0 +1,175 @@
+Index: .idea/workspace.xml
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+deleted file mode 100644
+--- a/.idea/workspace.xml	(revision e8abdc69c1da629ce1a0d10a17d9ff338de570ee)
++++ /dev/null	(revision e8abdc69c1da629ce1a0d10a17d9ff338de570ee)
+@@ -1,140 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="AutoImportSettings">
+-    <option name="autoReloadType" value="SELECTIVE" />
+-  </component>
+-  <component name="ChangeListManager">
+-    <list default="true" id="18d1205f-e0c5-4a6a-912d-83fca187f7bf" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-    </list>
+-    <option name="SHOW_DIALOG" value="false" />
+-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-    <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Class" />
+-      </list>
+-    </option>
+-  </component>
+-  <component name="Git.Settings">
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-  </component>
+-  <component name="ProjectColorInfo">{
+-  &quot;associatedIndex&quot;: 5
+-}</component>
+-  <component name="ProjectId" id="35h5ka48c1ITBxYLdgYDeCfGoc8" />
+-  <component name="ProjectViewState">
+-    <option name="hideEmptyMiddlePackages" value="true" />
+-    <option name="showLibraryContents" value="true" />
+-  </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Application.Main.executor": "Run",
+-    "JUnit.SimpleIndexTest.addAndGetShouldStoreWordsPerFile (1).executor": "Run",
+-    "JUnit.SimpleIndexTest.addAndGetShouldStoreWordsPerFile.executor": "Run",
+-    "JUnit.SimpleIndexTest.getAllDocumentsShouldReturnAllDistinctFiles.executor": "Run",
+-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+-    "ModuleVcsDetector.initialDetectionPerformed": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+-    "RunOnceActivity.git.unshallow": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "Unit-Test",
+-    "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "/Users/mohammadhosseinsurani/Desktop/Onboard_Fall_2025",
+-    "project.structure.last.edited": "Modules",
+-    "project.structure.proportion": "0.15",
+-    "project.structure.side.proportion": "0.2",
+-    "settings.editor.selected.configurable": "MavenSettings"
+-  }
+-}]]></component>
+-  <component name="RunManager">
+-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Main" />
+-      <module name="Onboard_Fall_2025" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="SimpleIndexTest.addAndGetShouldStoreWordsPerFile (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-      <module name="Onboard_Fall_2025" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="index.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="index" />
+-      <option name="MAIN_CLASS_NAME" value="index.SimpleIndexTest" />
+-      <option name="METHOD_NAME" value="addAndGetShouldStoreWordsPerFile" />
+-      <option name="TEST_OBJECT" value="method" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="SimpleIndexTest.addAndGetShouldStoreWordsPerFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-      <module name="Mohaymen" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="index.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="index" />
+-      <option name="MAIN_CLASS_NAME" value="index.SimpleIndexTest" />
+-      <option name="METHOD_NAME" value="addAndGetShouldStoreWordsPerFile" />
+-      <option name="TEST_OBJECT" value="method" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="SimpleIndexTest.getAllDocumentsShouldReturnAllDistinctFiles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-      <module name="Onboard_Fall_2025" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="index.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="index" />
+-      <option name="MAIN_CLASS_NAME" value="index.SimpleIndexTest" />
+-      <option name="METHOD_NAME" value="getAllDocumentsShouldReturnAllDistinctFiles" />
+-      <option name="TEST_OBJECT" value="method" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <recent_temporary>
+-      <list>
+-        <item itemvalue="JUnit.SimpleIndexTest.getAllDocumentsShouldReturnAllDistinctFiles" />
+-        <item itemvalue="JUnit.SimpleIndexTest.addAndGetShouldStoreWordsPerFile (1)" />
+-        <item itemvalue="Application.Main" />
+-        <item itemvalue="JUnit.SimpleIndexTest.addAndGetShouldStoreWordsPerFile" />
+-      </list>
+-    </recent_temporary>
+-  </component>
+-  <component name="SharedIndexes">
+-    <attachedChunks>
+-      <set>
+-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+-      </set>
+-    </attachedChunks>
+-  </component>
+-  <component name="TaskManager">
+-    <task active="true" id="Default" summary="Default task">
+-      <changelist id="18d1205f-e0c5-4a6a-912d-83fca187f7bf" name="Changes" comment="" />
+-      <created>1763549606711</created>
+-      <option name="number" value="Default" />
+-      <option name="presentableId" value="Default" />
+-      <updated>1763549606711</updated>
+-    </task>
+-    <servers />
+-  </component>
+-  <component name="XSLT-Support.FileAssociations.UIState">
+-    <expand />
+-    <select />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"CompilerConfiguration\">\n    <excludeFromCompile>\n      <directory url=\"file://$PROJECT_DIR$/src/main/resources/archetype-resources\" includeSubdirectories=\"true\" />\n    </excludeFromCompile>\n    <annotationProcessing>\n      <profile default=\"true\" name=\"Default\" enabled=\"true\" />\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\n        <outputRelativeToContentRoot value=\"true\" />\n        <module name=\"Onboard_Fall_2025\" />\n      </profile>\n    </annotationProcessing>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	(revision e8abdc69c1da629ce1a0d10a17d9ff338de570ee)
++++ b/.idea/compiler.xml	(date 1763557912532)
+@@ -6,12 +6,9 @@
+     </excludeFromCompile>
+     <annotationProcessing>
+       <profile default="true" name="Default" enabled="true" />
+-      <profile name="Maven default annotation processors profile" enabled="true">
+-        <sourceOutputDir name="target/generated-sources/annotations" />
+-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+-        <outputRelativeToContentRoot value="true" />
+-        <module name="Onboard_Fall_2025" />
+-      </profile>
+     </annotationProcessing>
++    <bytecodeTargetLevel>
++      <module name="Maven" target="1.8" />
++    </bytecodeTargetLevel>
+   </component>
+ </project>
+\ No newline at end of file
