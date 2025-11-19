@@ -5,44 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18d1205f-e0c5-4a6a-912d-83fca187f7bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Mohaymen.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maven/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maven/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maven/src/main/resources/archetype-resources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maven/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maven/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maven/target/classes/META-INF/maven/archetype.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maven/target/classes/archetype-resources/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maven/target/classes/archetype-resources/src/main/java/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maven/target/classes/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maven/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maven/target/search-engine-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mohaymen/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mohaymen/SearchEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mohaymen/file/FileReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mohaymen/index/Index.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mohaymen/index/SimpleIndex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mohaymen/search/BasicSearchStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mohaymen/search/SearchStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mohaymen/tokenizer/CustomTokenizer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mohaymen/tokenizer/DefaultTokenizer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mohaymen/tokenizer/Tokenizer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Mohaymen/index/SimpleIndexTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Mohaymen/search/BasicSearchStrategyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/search/BasicSearchStrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/search/BasicSearchStrategyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,6 +35,7 @@
     "Application.Main.executor": "Run",
     "JUnit.SimpleIndexTest.addAndGetShouldStoreWordsPerFile (1).executor": "Run",
     "JUnit.SimpleIndexTest.addAndGetShouldStoreWordsPerFile.executor": "Run",
+    "JUnit.SimpleIndexTest.getAllDocumentsShouldReturnAllDistinctFiles.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -75,7 +51,7 @@
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SimpleIndexTest.addAndGetShouldStoreWordsPerFile (1)">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Onboard_Fall_2025" />
@@ -115,8 +91,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleIndexTest.getAllDocumentsShouldReturnAllDistinctFiles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Onboard_Fall_2025" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="index.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="index" />
+      <option name="MAIN_CLASS_NAME" value="index.SimpleIndexTest" />
+      <option name="METHOD_NAME" value="getAllDocumentsShouldReturnAllDistinctFiles" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimpleIndexTest.getAllDocumentsShouldReturnAllDistinctFiles" />
         <item itemvalue="JUnit.SimpleIndexTest.addAndGetShouldStoreWordsPerFile (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.SimpleIndexTest.addAndGetShouldStoreWordsPerFile" />
