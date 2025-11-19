@@ -2,7 +2,7 @@ package search;
 
 import index.Index;
 import index.SimpleIndex;
-import org.junit.Before;
+import org.junit.jupiter.api.BeforeEach;
 
 import java.util.Set;
 import org.junit.jupiter.api.Test;
@@ -13,7 +13,7 @@ public class BasicSearchStrategyTest {
     private Index index;
     private SearchStrategy searchStrategy;
 
-    @Before
+    @BeforeEach
     public void setUp() {
         index = new SimpleIndex();
         searchStrategy = new BasicSearchStrategy();
