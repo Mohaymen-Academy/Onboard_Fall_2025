@@ -13,5 +13,8 @@
         <module name="Onboard_Fall_2025" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Maven" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
