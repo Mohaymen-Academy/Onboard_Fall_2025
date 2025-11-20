@@ -3,7 +3,7 @@ package index;
 import java.util.Set;
 
 public interface Index {
-    void add(String word, String file);
-    Set<String> get(String word);
+    void add(String query, String contentId);
+    Set<String> get(String query);
     Set<String> getAllDocuments();
 }
