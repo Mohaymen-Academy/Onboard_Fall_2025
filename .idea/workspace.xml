@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18d1205f-e0c5-4a6a-912d-83fca187f7bf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_19_2025_A__18_42__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_19_2025_A__18_42__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_19_2025_A__18_43__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_19_2025_A__18_43__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SearchEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchEngineConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/file/FileReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/index/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/index/Index.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/index/SimpleIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/index/SimpleIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tokenizer/CustomTokenizer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SearchEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/index/SimpleIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/index/SimpleIndex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/index/Index.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/index/SimpleIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search/BasicSearchStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search/PrefixSearchStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search/SearchStrategy.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1763549606711</updated>
-      <workItem from="1763621095436" duration="8883000" />
+      <workItem from="1763621095436" duration="10936000" />
     </task>
     <servers />
   </component>
