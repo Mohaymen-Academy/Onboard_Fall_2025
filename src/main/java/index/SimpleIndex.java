@@ -6,22 +6,23 @@ public class SimpleIndex implements Index {
     private Map<String, Set<String>> index = new HashMap<>();
 
     @Override
-    public void add(String word, String file) {
-        index.putIfAbsent(word, new HashSet<>());
-        index.get(word).add(file);
+    public void add(String query, String contentId) {
+        index.putIfAbsent(query, new HashSet<>());
+        index.get(query).add(contentId);
     }
 
+
     @Override
-    public Set<String> get(String word) {
-        return index.getOrDefault(word, Collections.emptySet());
+    public Set<String> get(String query) {
+        return index.getOrDefault(query, Collections.emptySet());
     }
 
     @Override
     public Set<String> getAllDocuments() {
-        Set<String> allFiles = new HashSet<>();
-        for (Set<String> files : index.values()) {
-            allFiles.addAll(files);
+        Set<String> allDocuments = new HashSet<>();
+        for (Set<String> documents : index.values()) {
+            allDocuments.addAll(documents);
         }
-        return allFiles;
+        return allDocuments;
     }
 }
